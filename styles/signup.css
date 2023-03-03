@@ -19,7 +19,7 @@ body .form-container .form-title {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -29,7 +29,8 @@ body .form-container .form-title {
 }
 @media only screen and (max-width: 400px) {
   body .form-container {
-    margin: 150px auto;
+    margin: 10px auto;
     width: 300px;
+    padding: 15px;
   }
-}/*# sourceMappingURL=login.css.map */
+}/*# sourceMappingURL=signup.css.map */
