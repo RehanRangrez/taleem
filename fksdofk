@@ -1,0 +1,42 @@
+[33mcommit 065ef5f29b24280bb460c47b76a930fca21e044c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mTaleem/master[m[33m)[m
+Author: Rehan Rangrez <ztechslo@gmail.com>
+Date:   Sat Mar 4 04:41:09 2023 +0530
+
+    nimish
+
+[33mcommit 8d263e325efab6e3c4ae4c72f679f9ff7047d977[m
+Merge: 56e8b53 533a01f
+Author: Rehan Rangrez <ztechslo@gmail.com>
+Date:   Fri Mar 3 23:46:06 2023 +0530
+
+    Merge branch 'master' of https://github.com/RehanRangrez/taleem
+
+[33mcommit 56e8b53d3a9bb5c664df1bae05042c79cde450e3[m
+Author: Rehan Rangrez <ztechslo@gmail.com>
+Date:   Fri Mar 3 23:46:01 2023 +0530
+
+    feeds/books completed
+
+[33mcommit 533a01f8ace845a981cba1e19c9e6f6947015f28[m
+Author: Rehan Rangrez <ztechoslo@gmail.com>
+Date:   Fri Mar 3 20:52:04 2023 +0530
+
+    Sign up form completed
+
+[33mcommit 017c922b9febd58fab6e2b62aec22cbf1d789cde[m
+Author: Rehan Rangrez <ztechoslo@gmail.com>
+Date:   Fri Mar 3 18:46:53 2023 +0530
+
+    Login completed
+
+[33mcommit 49d4964733796814e08d512ea1cd1c1026aba7e1[m
+Author: Rehan Rangrez <ztechslo@gmail.com>
+Date:   Fri Mar 3 17:22:24 2023 +0530
+
+    Nav completed
+
+[33mcommit 7206f7d44e26606f38b3fac5d38985f225368fb2[m
+Author: Rehan Rangrez <ztechslo@gmail.com>
+Date:   Fri Mar 3 16:22:30 2023 +0530
+
+    First commit
