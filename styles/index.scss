@@ -12,10 +12,18 @@ body{
     margin-top: 10px;
 }
 
-
+.r-bbutton{
+    display:none;
+}
 
 @media only screen and (max-width: 760px) {
   .disappear-nav-add-btn{
     display:none ;
 }
 }
+
+@media only screen and (max-width: 767px) {
+    .r-bbutton{
+        display:list-item;
+    }
+  }
