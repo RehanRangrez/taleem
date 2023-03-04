@@ -43,11 +43,18 @@ body {
 .landing-section .landing-text-container .landing-btn {
   padding: 10px 15px;
   background-color: #e7bef5;
+  margin-left: 10px;
 }
 .landing-section .landing-img-container {
   width: 50%;
   height: 100%;
   background-color: #e7bef5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.landing-section .landing-img-container img {
+  width: 80%;
 }
 
 @media only screen and (max-width: 760px) {
