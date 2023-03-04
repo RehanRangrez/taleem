@@ -1,0 +1,121 @@
+$mont: "Montserrat", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $mont;
+  .page-container {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    .question {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    hr {
+      width: 50%;
+      margin: 10px auto;
+    }
+    .answer-text {
+      font-size: 18px;
+      font-family: $mont;
+      margin: 15px auto;
+    }
+    .discussion-container {
+      .discussion-title {
+        font-size: 24px;
+        font-family: $mont;
+        color: gray;
+        text-align: center;
+        margin-top: 50px;
+      }
+      ul li {
+        width: 100%;
+        background-color: rgba(128, 128, 128, 0.153);
+        margin: 10px 10px 10px 0;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .chat-message {
+          font-size: 14px;
+        }
+        .sender {
+          font-size: 8px;
+          margin-top: 5px;
+        }
+      }
+      .chat-send-container {
+        // width: ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border: 1px solid gray;
+        .chat-input {
+          border: none;
+          outline: none;
+          width: 90%;
+          :hover,
+          :focus {
+            outline: none;
+          }
+        }
+        .chat-send-icon-container {
+          width: 10%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+        }
+      }
+    }
+    .evaluate-container {
+      margin: 40px 0;
+      height: 10px;
+      button {
+        float: right;
+      }
+    }
+  }
+}
+
+.nav-link {
+  margin-top: 10px;
+}
+
+.r-bbutton {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    .page-container {
+      padding: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .disappear-nav-add-btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  body {
+    .page-container {
+      padding: 10px;
+      .question {
+        font-size: 20px;
+      }
+      .answer-text {
+        font-size: 16px;
+      }
+    }
+  }
+}
